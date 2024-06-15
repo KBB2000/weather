@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+    --body_background : white;
+    --body_color:black;
+    --link_color: navy;
+}
+[data-theme="dark"]{
+  --body_background : #282c34;
+  --body_color:white;
+  --link_color: cyan;
+}
